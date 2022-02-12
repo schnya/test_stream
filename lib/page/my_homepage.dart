@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:test_stream/presentation/widget/increment_button.dart';
+
+import '../widget/increment_button.dart';
 
 final FirebaseFirestore firestore = FirebaseFirestore.instance;
 
